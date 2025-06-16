@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Cuestionario de X-Men</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        input[type="radio"] {
+            margin-bottom: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #ed1d24;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 3px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Cuestionario de X-Men</h1>
+        <form action="#" method="post">
+            <label>1. ¿Quién es el líder de los X-Men?</label>
+            <input type="radio" name="q1" value="a"> a) Profesor X
+            <input type="radio" name="q1" value="b"> b) Cíclope
+            <input type="radio" name="q1" value="c"> c) Lobezno
+
+            <label>2. ¿Cuál es el poder mutante de Tormenta?</label>
+            <input type="radio" name="q2" value="a"> a) Manipulación del Clima
+            <input type="radio" name="q2" value="b"> b) Telepatía
+            <input type="radio" name="q2" value="c"> c) Fuerza Sobrehumana
+
+            <label>3. ¿Qué mutante de los X-Men puede controlar y manipular el metal?</label>
+            <input type="radio" name="q3" value="a"> a) Magneto
+            <input type="radio" name="q3" value="b"> b) Hombre de Hielo
+            <input type="radio" name="q3" value="c"> c) Rondador Nocturno
+
+            <input type="submit" value="Enviar Respuestas del Cuestionario de X-Men">
+        </form>
+    </div>
+</body>
+</html>
+
